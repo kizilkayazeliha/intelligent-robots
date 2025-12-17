@@ -28,3 +28,37 @@ Her adımda robot aşağıdaki durumu algılar:
 
 ```python
 state = (distance, bearing)
+```
+
+## 🚗 Kontrol Mantığı
+
+Robot önce hedefe doğru hizalanır
+Yeterince hizalandığında:
+İleri gider
+Küçük açısal sapmalar için düzeltme yapar.
+
+Hedefe ulaşıldığında:
+Yeni rastgele hedef oluşturulur
+ 
+## Çalıştırma
+pip install pybullet
+python robot_env.py
+
+Simülasyon GUI modunda açılır ve robot hedeflere doğru otonom şekilde hareket eder.
+
+##  Kullanım Amacı
+Mobil robot navigasyonu
+Reinforcement Learning ortamı geliştirme
+PyBullet ve diferansiyel sürüş deneyleri
+Akademik / eğitim amaçlı simülasyon
+
+## Sonraki Adımlar
+
+Episode & reset mekanizması
+Engel (obstacle) eklenmesi
+Ödül fonksiyonu tasarımı
+Q-learning / PPO ile eğitim
+
+## Lisans
+
+Bu proje eğitim ve araştırma amaçlıdır.
